@@ -6,26 +6,26 @@ $(document).ready(function(){
     var consistency = $("input:radio[consistency]:checked").val();
     var omelette = $("input:radio[omelette]:checked").val();
     var bird = $("input:radio[bird]:checked").val();
-    // if (!quantity || !method || !consistency || !omelette || !bird){
-    //   (alert("Please enter a response for each question before submitting")
-    // }
-    // else{
-      if (quantity === "1" ||  method === "scrambled" || consistency === "hard" || (omelette === "denver" && bird === "chicken") || bird === "pheasant"){
+
+      if (quantity === "1" || omelette === "denver"){
         $("#option1").show();
       }
-      else if (quantity === "2" || method === "sunnyside" || consistency === "softer" || bird === "ostrich" || omelette === "cheese"){
+      else if (quantity === "2" || omelette === "meat" || consistency === "hard"){
         $("#option2").show();
       }
-      else if (quantity === "3" || method === "poached" || (method === "boiled" && consistency === "soft") || omelette === "florentine" || bird === "duck"){
+      else if (quantity === "3" || omelette === "florentine" || bird === "chicken"){
         $("#option3").show();
       }
-      else if (quantity === "6" || method === "scrambled" || consistency === "raw" || omelette === "meat" || bird === "ostrich"){
-        $("#option4").show();
+      else if (quantity === "6" || bird === "ostrich" || consistency === "softer" || omelette === "meat"){
+        $("#option3").show();
       }
-      else{
+      else if (quantity === "A dozen" || bird === "quail"){
+        $("option4").show();
+      }
+      else {
         $("#option5").show();
       }
-      $("form#quiz").hide();
       $("#result").show();
-   });
- });
+      $("#quiz").hide();
+    });
+  });

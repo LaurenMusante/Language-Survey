@@ -3,5 +3,27 @@
 }
 
 .grad {
-  background-image: radial-gradient(#ff9900, #ffcc00, white);
+  background-image: radial-gradient(#e68a00, white);
+}
+
+.form-check {
+  font-family: "lucinda console";
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "lucida console";
+}
+
+.result h2 {
+  font-family: "lucinda console";
+}
+p {
+  font-family: "lucida console"
+  font-size: 25px;
+}
+
+#quiz h3 {
+  font-family: "lucinda console"
+
 }
