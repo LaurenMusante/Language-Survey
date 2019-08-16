@@ -11,21 +11,21 @@ $(document).ready(function(){
     // }
     // else{
       if (quantity === "1" ||  method === "scrambled" || consistency === "hard" || (omelette === "denver" && bird === "chicken") || bird === "pheasant"){
-        $("option1").show();
+        $("#option1").show();
       }
       else if (quantity === "2" || method === "sunnyside" || consistency === "softer" || bird === "ostrich" || omelette === "cheese"){
-        $("option2").show();
+        $("#option2").show();
       }
       else if (quantity === "3" || method === "poached" || (method === "boiled" && consistency === "soft") || omelette === "florentine" || bird === "duck"){
-        $("option3").show();
+        $("#option3").show();
       }
       else if (quantity === "6" || method === "scrambled" || consistency === "raw" || omelette === "meat" || bird === "ostrich"){
-        $("option4").show();
+        $("#option4").show();
       }
       else{
-        $("option5").show();
+        $("#option5").show();
       }
-      ("#quiz").hide();
-      ("#result").show();
+      $("form#quiz").hide();
+      $("#result").show();
    });
  });
