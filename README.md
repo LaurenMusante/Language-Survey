@@ -10,11 +10,9 @@ _The purpose of this website it to answer the user question "Which programming l
 
 ## Setup/Installation Requirements
 
-_Clone this repository (https://github.com/LaurenMusante/Language-Survey) to your desktop. Use Terminal to open the project in Atom. Open index.html in Atom. Drag the tab over to a functional web browser and it should be good to go._
+_Clone [this repository](https://github.com/LaurenMusante/Language-Survey) to your desktop. Use Terminal to open the project in Atom. Open index.html in Atom. Use the cursor to drag the tab over to a functional web browser and proceed to take the survey._
 
 ## Known Bugs
-
-[I'm an inline-style link](https://www.google.com)
 
 _n/a_
 
