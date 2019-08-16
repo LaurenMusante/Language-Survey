@@ -8,7 +8,7 @@ $(document).ready(function(){
     var bird = $("input:radio[bird]:checked").val();
 
       if (quantity === "1" || omelette === "denver"){
-        $("#option1").show();
+        $("#option5").show();
       }
       else if (quantity === "2" || omelette === "meat" || consistency === "hard"){
         $("#option2").show();
@@ -23,7 +23,7 @@ $(document).ready(function(){
         $("option4").show();
       }
       else {
-        $("#option5").show();
+        $("#option1").show();
       }
       $("#result").show();
       $("#quiz").hide();
