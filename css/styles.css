@@ -1,3 +1,7 @@
 #option1, #option2, #option3, #option4, #option5, #result {
-    display:none;    
+    display:none;
+}
+
+.grad {
+  background-image: radial-gradient(#ff9900, #ffcc00, white);
 }
