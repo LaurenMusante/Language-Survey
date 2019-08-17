@@ -1,6 +1,7 @@
-/* #option1, #option2, #option3, #option4, #option5, #result {
+#option1, #option2, #option3, #option4, #option5, #result {
     display:none;
-} */
+    text-align: center;
+}
 
 .grad {
   background-image: radial-gradient(#e68a00, white);
@@ -32,4 +33,5 @@ img {
   width: width;
   height: 300px;
   border-radius: 8px;
+
 }
